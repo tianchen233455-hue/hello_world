@@ -1,0 +1,36 @@
+# Keil MDK build artifacts
+MDK-ARM/*/
+!MDK-ARM/RTE/
+!MDK-ARM/DebugConfig/
+!MDK-ARM/.vscode/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvoptx
+MDK-ARM/*.uvprojx.bak
+MDK-ARM/*.uvguix.bak
+MDK-ARM/*.scvd
+
+# Compiled files
+*.o
+*.obj
+*.elf
+*.axf
+*.bin
+*.hex
+*.map
+*.lst
+*.dep
+*.d
+
+# Editor / IDE
+.vscode/*.log
+.vscode/*.lock
+*.swp
+*.swo
+*~
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
